@@ -1,8 +1,118 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import MapPinIcon from "astro-heroicons/solid/MapPin.astro";
+import EnvelopeIcon from "astro-heroicons/solid/Envelope.astro";
+import GlobeEuropeAfricaIcon from "astro-heroicons/solid/GlobeEuropeAfrica.astro";
 ---
 
 <Layout title="Owen Prosser">
-Hello world
+  <h1 class="font-semibold text-xl tracking-tighter">👋 Hi, I&apos;m Owen</h1>
 
+  <div class="leading-7 text-zinc-300 mt-6">
+    I&apos;m a frontend developer and designer, currently studying my A-Levels.
+    Currently, I&apos;m creating <a
+      class="text-sm border border-zinc-600 bg-zinc-800 rounded-md py-1 px-1.5 inline-flex items-center gap-1 hover:bg-zinc-700 hover:border-zinc-500 hover:text-zinc-200 transition mt-1"
+      href="https://captivate.prossermedia.co.uk"
+      target="_blank"
+    >
+      <svg
+        class="h-4 w-4 text-[rgb(39_63_139)]"
+        width="82"
+        height="74"
+        viewBox="0 0 82 74"
+        xmlns="http://www.w3.org/2000/svg"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        fill="currentColor"
+      >
+        <path
+          d="M51.7765 9.27794C50.0157 7.32158 46.9717 7.1159 44.6707 9.41696L9.68107 44.4065C9.6359 44.4517 9.58954 44.4957 9.54205 44.5384C7.58569 46.2992 7.38001 49.3432 9.68107 51.6442L25.3535 67.3166C26.7768 68.74 26.7769 71.0477 25.3535 72.4711C23.9301 73.8945 21.6224 73.8945 20.199 72.4711L4.52662 56.7987C-0.437734 51.8343 -0.665404 43.9962 4.58876 39.1899L39.5162 4.2625C44.4805 -0.701841 52.3187 -0.929518 57.1249 4.32462L77.4734 24.6731C82.4377 29.6374 82.6654 37.4756 77.4113 42.2818L47.222 72.4711C45.7986 73.8945 43.4909 73.8945 42.0675 72.4711C40.6442 71.0477 40.6442 68.74 42.0675 67.3166L72.3189 37.0652C72.3641 37.0201 72.4105 36.9761 72.458 36.9333C74.4143 35.1726 74.62 32.1286 72.3189 29.8275L51.9083 9.41696C51.8632 9.37178 51.8192 9.32543 51.7765 9.27794Z"
+        ></path>
+        <path
+          d="M22.2623 69.8939C22.2623 67.881 22.5805 66.2491 22.973 66.2491H44.7018C45.0943 66.2491 45.4125 67.881 45.4125 69.8939C45.4125 71.9068 45.0943 73.5386 44.7018 73.5386H22.973C22.5805 73.5386 22.2623 71.9068 22.2623 69.8939Z"
+        ></path>
+        <path
+          d="M12.9095 30.8692C14.3329 29.4458 16.6406 29.4458 18.064 30.8692L50.8667 63.6719C52.2901 65.0953 52.2901 67.403 50.8667 68.8263C49.4434 70.2497 47.1356 70.2497 45.7123 68.8263L12.9095 36.0236C11.4862 34.6002 11.4862 32.2925 12.9095 30.8692Z"
+        ></path>
+      </svg> Captivate</a
+    >, an all-in-one learning tool for students.
+  </div>
+
+  <div class="mt-8 space-y-2">
+    <div class="flex gap-2 items-center">
+      <MapPinIcon class="h-4 w-4 text-zinc-500" />
+      <span class="text-sm font-medium">Wales, United Kingdom</span>
+    </div>
+    <div class="flex gap-2 items-center">
+      <EnvelopeIcon class="h-4 w-4 text-zinc-500" />
+      <span class="text-sm font-medium">hello[at]owenprosser.co.uk</span>
+    </div>
+    <div class="flex gap-2 items-center">
+      <GlobeEuropeAfricaIcon class="h-4 w-4 text-zinc-500" />
+      <span class="text-sm font-medium">owenprosser.co.uk</span>
+    </div>
+  </div>
+
+  <div class="mt-10" id="projects">
+    <h2 class="text-lg font-semibold tracking-tight">Projects</h2>
+
+    <div class="space-y-4 mt-2">
+      <div class="flex flex-col items-start gap-0.5">
+        <a
+          href="https://captivate.prossermedia.co.uk"
+          class="underline font-medium hover:text-zinc-200 transition inline-flex"
+          >Captivate</a
+        >
+        <p class="text-sm text-zinc-400 leading-6">
+          An all-in-one learning platform for students &mdash; including
+          flashcards, note-taking and question practise for Maths, Chemistry and
+          Physics at A-Level (currently).
+        </p>
+      </div>
+      <div class="flex flex-col items-start gap-0.5">
+        <p class="font-medium inline-flex">Forks</p>
+        <p class="text-sm text-zinc-400 leading-6">
+          Modern recipe manager with built-in support for meal planning.
+        </p>
+      </div>
+      <div class="flex flex-col items-start gap-0.5">
+        <a
+          href="https://myhandymandarren.com"
+          class="underline font-medium hover:text-zinc-200 transition inline-flex"
+          >My Handyman Darren</a
+        >
+        <p class="text-sm text-zinc-400 leading-6">
+          Simple website for a handyman business.
+        </p>
+      </div>
+      <div class="flex flex-col items-start gap-0.5">
+        <a
+          href="https://wilcrickforge.co.uk"
+          class="underline font-medium hover:text-zinc-200 transition inline-flex"
+          >Wilcrick Forge</a
+        >
+        <p class="text-sm text-zinc-400 leading-6">
+          Website for a website for a small business offering farriery services
+          advertising its services.
+        </p>
+      </div>
+      <div class="flex flex-col items-start gap-0.5">
+        <p class="font-medium inline-flex">Party for a Princess</p>
+        <p class="text-sm text-zinc-400 leading-6">
+          Website for a small party business.
+        </p>
+      </div>
+      <div class="flex flex-col items-start gap-0.5">
+        <a
+          href="https://wilcrickforge.co.uk"
+          class="underline font-medium hover:text-zinc-200 transition inline-flex"
+          >The Fairy Project</a
+        >
+        <p class="text-sm text-zinc-400 leading-6">
+          Website for a client aiming to showcase hand made wild nature art
+          sculptures.
+        </p>
+      </div>
+    </div>
+  </div>
 </Layout>

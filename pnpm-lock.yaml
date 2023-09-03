@@ -8,9 +8,15 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.0.0
     version: 5.0.0(astro@3.0.7)(tailwindcss@3.3.3)
+  '@fontsource/inter':
+    specifier: ^5.0.8
+    version: 5.0.8
   astro:
     specifier: ^3.0.7
     version: 3.0.7
+  astro-heroicons:
+    specifier: ^0.3.0
+    version: 0.3.0
   tailwindcss:
     specifier: ^3.0.24
     version: 3.3.3
@@ -781,6 +787,10 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+  /@fontsource/inter@5.0.8:
+    resolution: {integrity: sha512-28knWH1BfOiRalfLs90U4sge5mpQ8ZH6FS0PTT+IZMKrZ7wNHDHRuKa1kQJg+uHcc6axBppnxll+HXM4c7zo/Q==}
+    dev: false
+
   /@humanwhocodes/config-array@0.11.11:
     resolution: {integrity: sha512-N2brEuAadi0CcdeMXUkhbZB84eskAc8MEX1By6qEchoVywSgXPIjou4rYsl0V3Hj0ZnuGycGCjdNgockbzeWNA==}
     engines: {node: '>=10.10.0'}
@@ -1062,6 +1072,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /astro-heroicons@0.3.0:
+    resolution: {integrity: sha512-dXtp0zMe7D6TuFLt1YA26w+4KjBEi6vqlotBlN8Jqv9qsoDwR4cSMuN9Qnr92P3B0R+4HWvDzVio9Y5TS/Knsw==}
+    dev: false
 
   /astro@3.0.7:
     resolution: {integrity: sha512-slUnDBXfxMzq5abE4svcKbaeYC/tHZsJYOrzwDNU9lLye3/4cqYP7OuHMTXiRlx7LSpHQlUhwbMe2HqCv2GKag==}
